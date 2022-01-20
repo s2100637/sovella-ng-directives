@@ -1,0 +1,3 @@
+<button (click)="onClick()">Display details</button>
+<p *ngIf="displayDetails" class="para">Tämä kappale sisältää salaista tietoa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo tempora officiis minus eveniet. Vero culpa iure numquam maiores atque fuga reprehenderit minima animi rem suscipit sit illo qui cumque at a, dolorem doloremque officiis nobis. Quaerat eligendi tenetur sunt eaque odit iusto, voluptate numquam dolores sit eos recusandae unde.</p>
+<p *ngFor="let logItem of log; let i = index" [ngClass]="{'wob': i > 3}">{{ logItem }}</p>
